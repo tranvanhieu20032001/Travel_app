@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap");
+
+:root {
+  --green: #27ae60;
+  --black: #192a56;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  --first-color: #fff;
+  --text-color: #333;
+  --main-color: #53a6d8;
+  --sub-color: #ffdd20;
+  --bg-color:#eee;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+.main {
+    background-image:url(imgaes/pexels-mateusz-sałaciak-4275885.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+}
+.wrapper-qlcn{
+    padding: auto;
+    box-shadow: var(--box-shadow);
+}
+.avatar{
+    margin:20px auto 50px;
+    width: 15rem;
+    height: 15rem;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.btn{
+    width: 7rem;
+    height:3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: var(--first-color);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+.form-control#email{
+    text-transform: lowercase;
+}

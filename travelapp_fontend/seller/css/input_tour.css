@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+.wh{
+    width: 200px;
+    height: 150px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageUploadContainer{
+    text-align: center;
+}
+.imageUpload{
+    margin-top: 20px;
+    padding: 7.5px 0;
+}
+.fileInfomation{
+    margin-top: 20px;
+}
+#imageUploadInput{
+    display: none;
+}
+#imagePreview{
+    margin: auto;
+    max-width: 400px;
+    max-height: 300px;
+}
+#imageUploadInputBtn,
+#sendData{
+    display: inline-block;
+    padding: 7.5px 15px;
+    background-color: #0099cc;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wrapper {
+    box-shadow:  0px 6px 15px rgba(0, 0, 0, 0.15);
+    width: 1200px;
+    border: #0099cc;
+    margin: auto;
+  }
+.heading{
+  text-align: center;
+  font-size: 2rem;
+}
+  .form{
+
+  }
+  .div{
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-group label{
+    display: block;
+  }
+  .form-group textarea{
+    width: 540px;
+    height: 100px;
+    margin: auto;
+    display: block;
+  }
+  .form-group input{
+    width: 100%;
+    height: 30px;
+  }
+  .form-submit {
+    outline: none;
+    background-color: #1dbfaf;
+    margin: 10px 30px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
